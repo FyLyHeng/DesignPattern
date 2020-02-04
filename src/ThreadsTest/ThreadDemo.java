@@ -15,7 +15,13 @@ public class ThreadDemo {
          * make the process fast
          */
         hi.start(); //run method in class Hi extant Thread
-        hello.run(); // call run in class Hello implement Runnable
+        //hello.run(); // call run in class Hello implement Runnable
+
+        hello.start();
+
+        /**
+         * we can call s
+         */
 
 
     }
