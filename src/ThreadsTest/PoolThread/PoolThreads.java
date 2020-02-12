@@ -15,6 +15,7 @@ public class PoolThreads implements Runnable {
         System.out.println(Thread.currentThread().getName()+" (End)");
     }
 
+    //local method
     private void sleeps(){
         try { Thread.sleep(5000); } catch (InterruptedException e) { }
     }

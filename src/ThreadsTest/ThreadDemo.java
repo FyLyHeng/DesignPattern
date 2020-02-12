@@ -88,8 +88,20 @@ public class ThreadDemo {
 
         t.join();
         t1.join();
+        System.out.println(t1.isAlive()+" checkT1");// after join() thread had kill (stop)
         System.out.println(t.isAlive());
         System.out.println("this is mean");
+
+        /**
+         * we can start t1 again
+         * thread can start one time
+         */
+        //t1.start();
+
+        Thread t2 = new Thread(hello01);
+        t2.start();
+        t2.join();
+        System.out.println(t2.isAlive()+"checkT2");
 
 
 
