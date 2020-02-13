@@ -22,6 +22,7 @@ public class TestGC {
         System.gc();
 
         gc=null;
+        gc1 = null;
         System.gc();
     }
 }
