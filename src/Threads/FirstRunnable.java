@@ -5,17 +5,18 @@ public class FirstRunnable {
 
 
         /**
+         * @by lambda syntax
          * anonymous class create obj
          * @class Interface Runnable
          */
         Runnable runnable = () ->{
-            System.out.println("Rinning in thread "+Thread.currentThread().getName());
+            System.out.println("Running in thread "+Thread.currentThread().getName());
         };
 
         Thread t = new Thread(runnable);
         t.setName("T1");
         t.start();
-        t.run();
+        t.run();//it run the current thread is main thread
     }
 
 
