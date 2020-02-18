@@ -1,0 +1,58 @@
+package DUCK;
+
+import Quack.QuackBehavior;
+import fly.FlyBehavior;
+
+public abstract class Duck {
+
+    /**
+     * constructor
+     */
+    public Duck() {
+    }
+
+
+    /**
+     * create obj of interface
+     * @Delegate two interface
+     */
+    FlyBehavior flyBehavior;
+    QuackBehavior quackBehavior;
+
+    public void swim(){
+        System.out.println("All duck float, even decoys!");
+    }
+
+
+    /**
+     * abstract method sub must override
+     */
+    public abstract void display();
+
+
+
+
+    /**
+     * @Delegate to the behavior class
+     */
+    public void performQuack() {
+        quackBehavior.quack();
+    }
+
+    public void performFly(){
+        flyBehavior.fly();
+    }
+
+
+    /**
+     * 
+     * @param flyBehavior
+     */
+    public void setFlyBehavior(FlyBehavior flyBehavior) {
+        this.flyBehavior = flyBehavior;
+    }
+
+    public void setQuackBehavior(QuackBehavior quackBehavior) {
+        this.quackBehavior = quackBehavior;
+    }
+}
