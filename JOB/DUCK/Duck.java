@@ -45,8 +45,8 @@ public abstract class Duck {
 
 
     /**
-     * 
-     * @param flyBehavior
+     * @Setting behavior dynamically
+     * set by subclass that extend Duck
      */
     public void setFlyBehavior(FlyBehavior flyBehavior) {
         this.flyBehavior = flyBehavior;
