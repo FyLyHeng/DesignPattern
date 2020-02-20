@@ -15,6 +15,7 @@ public abstract class Duck {
     /**
      * create obj of interface
      * @Delegate two interface
+     * those two obj all sub class can call
      */
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
