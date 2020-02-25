@@ -1,4 +1,4 @@
-package Quack;
+package JOB.Quack;
 
 public class MuteQuack implements QuackBehavior {
 

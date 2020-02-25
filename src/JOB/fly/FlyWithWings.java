@@ -1,4 +1,4 @@
-package fly;
+package JOB.fly;
 
 public class FlyWithWings implements FlyBehavior {
 

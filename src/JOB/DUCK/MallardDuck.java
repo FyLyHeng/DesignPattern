@@ -1,7 +1,8 @@
-package DUCK;
+package JOB.DUCK;
 
-import Quack.Quack;
-import fly.FlyWithWings;
+import JOB.Quack.Quack;
+import JOB.fly.FlyWithWings;
+
 
 public class MallardDuck extends Duck {
 

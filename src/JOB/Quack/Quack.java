@@ -1,4 +1,4 @@
-package Quack;
+package JOB.Quack;
 
 public class Quack implements QuackBehavior {
 

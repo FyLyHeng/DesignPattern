@@ -1,7 +1,11 @@
-import DUCK.Duck;
-import DUCK.MallardDuck;
-import DUCK.ModelDuck;
-import fly.FlyRocketPowerd;
+package JOB;
+
+
+import JOB.DUCK.Duck;
+import JOB.DUCK.MallardDuck;
+import JOB.DUCK.ModelDuck;
+import JOB.fly.FlyRocketPowerd;
+
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {

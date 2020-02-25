@@ -1,7 +1,6 @@
-package DUCK;
+package JOB.DUCK;
 
-public class RubberDuck extends Duck{
-
+public class RedheadDuck extends Duck {
 
     @Override
     public void display() {
